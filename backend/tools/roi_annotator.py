@@ -12,11 +12,14 @@ x_start, y_start = -1, -1
 
 roi_map = {}
 class_map = {
-    "0": "R",  # resistor
-    "1": "C",  # capacitor
-    "2": "IC",
-    "3": "D",  # diode
-    "4": "U"   # other
+    "0": "C",   #capacitor
+    "1": "R",  #resistor
+    "2": "Co",  #connector
+    "3": "IC",  #IC
+    "4": "D",    #diode
+    "5": "r",  #smd_resistor
+    "6": L",  #LED
+    "7": "c", #smd_capacitor
 }
 
 class_counts = {k: 1 for k in class_map.values()}
