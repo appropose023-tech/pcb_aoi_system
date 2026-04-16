@@ -2,7 +2,7 @@ from fastapi import FastAPI, UploadFile, File, Form
 import cv2
 import numpy as np
 
-from core.pipeline import run_pipeline
+from backend.core.pipeline import run_pipeline
 from config import PCB_DATABASE
 
 app = FastAPI()
