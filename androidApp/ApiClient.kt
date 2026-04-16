@@ -1,0 +1,5 @@
+val request = MultipartBody.Builder()
+    .setType(MultipartBody.FORM)
+    .addFormDataPart("pcb_type", "PCB_A")
+    .addFormDataPart("file", "img.jpg", requestBody)
+    .build()
